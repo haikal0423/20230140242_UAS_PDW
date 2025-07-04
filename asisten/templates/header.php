@@ -41,6 +41,15 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'asisten') {
                     </a>
                 </li>
                 <li>
+                    <a href="praktikum.php" class="<?php echo ($activePage == 'praktikum') ? $activeClass : $inactiveClass; ?> flex items-center px-4 py-3 rounded-md transition-colors duration-200">
+        <!-- Icon: Book open -->
+                        <svg class="w-5 h-5 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.75c-1.5-1.25-3.75-1.25-5.25 0m5.25 0c1.5-1.25 3.75-1.25 5.25 0m-5.25 0V18m0 0c-1.5-1.25-3.75-1.25-5.25 0m5.25 0c1.5-1.25 3.75-1.25 5.25 0" />
+                        </svg>
+                        <span>Manajemen Praktikum</span>
+                    </a>
+                </li>
+                <li>
                     <a href="modul.php" class="<?php echo ($activePage == 'modul') ? $activeClass : $inactiveClass; ?> flex items-center px-4 py-3 rounded-md transition-colors duration-200">
                         <svg class="w-5 h-5 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" /></svg>
                         <span>Manajemen Modul</span>
