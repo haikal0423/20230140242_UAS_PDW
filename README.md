@@ -14,6 +14,8 @@ Kelas : E
 ![Screenshot 2025-07-04 190430](https://github.com/user-attachments/assets/a160d5bc-fc17-4570-97d4-766cf84ddcd2)
 ![Screenshot 2025-07-04 190517](https://github.com/user-attachments/assets/c7f91ce1-4f90-4b24-bbe8-a35c30c7fe1f)
 ![image](https://github.com/user-attachments/assets/9975312b-7112-4e36-b9e9-0d7bb7c729cc)
+![image](https://github.com/user-attachments/assets/e87cb0a0-4868-41eb-9385-99a1058da965)
+
 
 
 
