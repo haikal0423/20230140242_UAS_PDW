@@ -61,6 +61,14 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] != 'asisten') {
                         <span>Laporan Masuk</span>
                     </a>
                 </li>
+                <li>
+                    <a href="kelola_akun.php" class="<?php echo ($activePage == 'kelola_akun') ? $activeClass : $inactiveClass; ?> flex items-center px-4 py-3 rounded-md">
+                        <svg class="w-5 h-5 mr-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.5 20.25a8.25 8.25 0 0115 0" />
+                        </svg>
+                        <span>Kelola Akun</span>
+                    </a>
+                </li>
             </ul>
         </nav>
     </aside>
